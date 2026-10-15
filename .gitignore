@@ -1,0 +1,15 @@
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build products
+*.vvp
+*.o
+*.tmp
+*.bak
+
+# Preserve reports and waveforms in results when they are submission evidence.
+# Do not blanket-ignore results/.

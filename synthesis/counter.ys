@@ -1,0 +1,13 @@
+# Generic RTL synthesis with Yosys.
+# Run from the repository root: yosys -s synthesis/counter.ys
+
+read_verilog -sv rtl/counter_top.v
+hierarchy -check -top counter_top
+proc
+opt
+check
+synth -top counter_top
+check
+stat
+write_verilog -noattr results/counter_netlist.v
+tee -o results/counter_synthesis_stat.txt stat
