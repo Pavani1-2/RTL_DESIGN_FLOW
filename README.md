@@ -15,6 +15,7 @@ The primary goal is to develop a structured understanding of digital hardware de
 - Learn the operation of combinational and sequential logic.
 - Verify circuit functionality using testbenches.
 - Explore logic synthesis and gate-level netlist generation.
+- Practice sequence detection and verification.
 - Understand timing constraints and optimization concepts.
 - Study the stages involved in physical design.
 - Organize source files, scripts, and technical documentation.
@@ -151,6 +152,7 @@ The project includes a Yosys synthesis script that performs the following operat
 yosys -s synthesis/counter.ys
 yosys -s synthesis/mux2.ys
 yosys -s synthesis/full_adder.ys
+yosys -s synthesis/sequence_detector_1011.ys
 ```
 
 Alternatively, use the supplied helper script:
@@ -228,7 +230,11 @@ The following items require confirmation through actual tool execution:
 
 The repository should be updated as each stage is completed and its evidence becomes available.
 
-## 13. Future Enhancements
+## 13. Documentation and Exercises
+
+See [`docs/README.md`](docs/README.md) for Module 0–5 guides, sequence-detector assessment, classwork, and physical-design documentation. The included sequence detector detects the serial pattern `1011`; run `scripts/run_all_sim.ps1` to include its testbench in the simulation suite.
+
+## 14. Future Enhancements
 
 - Add combinational circuits such as multiplexers, decoders, and arithmetic units.
 - Develop sequential designs such as shift registers and finite-state machines.
@@ -239,7 +245,7 @@ The repository should be updated as each stage is completed and its evidence bec
 - Complete a supported SKY130 physical-design flow.
 - Document actual implementation results and limitations.
 
-## 14. Conclusion
+## 15. Conclusion
 
 This project establishes a structured foundation for learning RTL design and the digital VLSI implementation workflow. It connects Verilog coding and functional verification with logic synthesis and physical-design concepts.
 
