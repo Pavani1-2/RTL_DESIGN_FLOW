@@ -1,0 +1,18 @@
+# Documentation Index
+
+- [Module 0 — Setup and Toolchain](module_0.md)
+- [Module 1 — RTL Design and Synthesis](module_1.md)
+- [Module 2 — Timing Libraries and Sequential RTL](module_2.md)
+- [Module 3 — Logic Optimization](module_3.md)
+- [Module 4 — Blocking vs Non-Blocking Assignments](module_4.md)
+- [Module 5 — Synthesis Optimization](module_5.md)
+- [Assessment 1 — Sequence Detector](assessment_1_sequence_detector.md)
+- [August 22 Classwork](classwork_august_22.md)
+- [August 23 Classwork](classwork_august_23.md)
+- [Physical Design Workflow](physical_design.md)
+- [Physical Design Results](physical_design_results.md)
+- [RTL Methodology](rtl_methodology.md)
+- [Timing and HDL Notes](timing_and_hdl.md)
+- [Project Architecture](project_architecture.md)
+- [Simulation Results Log](results_log.md)
+- [Module Screenshots](module_screenshots.md)
