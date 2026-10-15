@@ -8,7 +8,8 @@ $tests = @(
   @{ Name = 'counter'; Top = 'tb_counter_top'; Sources = @('rtl/counter_top.v','tb/tb_counter_top.v') },
   @{ Name = 'mux2'; Top = 'tb_mux2'; Sources = @('rtl/mux2.v','tb/tb_mux2.v') },
   @{ Name = 'full_adder'; Top = 'tb_full_adder'; Sources = @('rtl/full_adder.v','tb/tb_full_adder.v') },
-  @{ Name = 'decoder2to4'; Top = 'tb_decoder2to4'; Sources = @('rtl/decoder2to4.v','tb/tb_decoder2to4.v') }
+  @{ Name = 'decoder2to4'; Top = 'tb_decoder2to4'; Sources = @('rtl/decoder2to4.v','tb/tb_decoder2to4.v') },
+  @{ Name = 'sequence_detector_1011'; Top = 'tb_sequence_detector_1011'; Sources = @('rtl/sequence_detector_1011.v','tb/tb_sequence_detector_1011.v') }
 )
 foreach ($test in $tests) {
   $out = "results/$($test.Name).vvp"
