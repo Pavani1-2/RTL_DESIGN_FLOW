@@ -1,0 +1,8 @@
+read_verilog rtl/mux2.v
+hierarchy -check -top mux2
+proc
+opt
+check
+synth -top mux2
+stat
+write_verilog -noattr results/mux2_netlist.v
