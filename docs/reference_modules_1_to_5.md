@@ -1,4 +1,4 @@
-# Physical Design Results — Modules 1 to 5
+# Physical Design Results 
 
 ## Module 1 — Complete ASIC Physical-Design Flow
 
