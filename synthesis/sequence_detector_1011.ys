@@ -1,0 +1,8 @@
+read_verilog rtl/sequence_detector_1011.v
+hierarchy -check -top sequence_detector_1011
+proc
+opt
+check
+synth -top sequence_detector_1011
+stat
+write_verilog -noattr results/sequence_detector_1011_synth.v
