@@ -1,0 +1,8 @@
+read_verilog rtl/full_adder.v
+hierarchy -check -top full_adder
+proc
+opt
+check
+synth -top full_adder
+stat
+write_verilog -noattr results/full_adder_netlist.v
