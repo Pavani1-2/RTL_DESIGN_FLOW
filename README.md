@@ -149,6 +149,8 @@ The project includes a Yosys synthesis script that performs the following operat
 
 ```powershell
 yosys -s synthesis/counter.ys
+yosys -s synthesis/mux2.ys
+yosys -s synthesis/full_adder.ys
 ```
 
 Alternatively, use the supplied helper script:
