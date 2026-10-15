@@ -11,6 +11,7 @@
 - [August 23 Classwork](classwork_august_23.md)
 - [Physical Design Workflow](physical_design.md)
 - [Physical Design Results](physical_design_results.md)
+- [VSDBabySoC Post-Route Multi-Corner STA Case Study](vsdbabysoc_postroute_sta.md)
 - [RTL Methodology](rtl_methodology.md)
 - [Timing and HDL Notes](timing_and_hdl.md)
 - [Project Architecture](project_architecture.md)
