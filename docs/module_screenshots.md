@@ -1,4 +1,4 @@
-# Physical Design Modules 1 to 5
+# Physical Design Modules
 ## Module 1 — Complete ASIC Physical-Design Flow
 
 Topics: floorplanning, power planning, placement, clock-tree synthesis (CTS), routing, antenna checks, static timing analysis (STA), parasitic extraction (SPEF), logic-equivalence checks, and physical verification.
