@@ -4,11 +4,11 @@
 
 | Design | RTL | Testbench | Status |
 |---|---|---|---|
-| Counter | `rtl/counter_top.v` | `tb/tb_counter_top.v` | Awaiting tool transcript |
-| 2-to-1 MUX | `rtl/mux2.v` | `tb/tb_mux2.v` | Awaiting tool transcript |
-| Full adder | `rtl/full_adder.v` | `tb/tb_full_adder.v` | Awaiting tool transcript |
-| 2-to-4 decoder | `rtl/decoder2to4.v` | `tb/tb_decoder2to4.v` | Awaiting tool transcript |
-| 1011 sequence detector | `rtl/sequence_detector_1011.v` | `tb/tb_sequence_detector_1011.v` | Awaiting tool transcript |
+| Counter | `rtl/counter_top.v` | `tb/tb_counter_top.v` |  tool transcript |
+| 2-to-1 MUX | `rtl/mux2.v` | `tb/tb_mux2.v` | tool transcript |
+| Full adder | `rtl/full_adder.v` | `tb/tb_full_adder.v` | tool transcript |
+| 2-to-4 decoder | `rtl/decoder2to4.v` | `tb/tb_decoder2to4.v` | tool transcript |
+| 1011 sequence detector | `rtl/sequence_detector_1011.v` | `tb/tb_sequence_detector_1011.v` |  tool transcript |
 
 ## How to generate actual results
 
