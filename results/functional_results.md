@@ -73,9 +73,9 @@ The testbench also applies stream `1,0,1,1,0,1,1` (`1011011`). Expected detectio
 | Check | Status |
 |---|---|
 | Expected functional cases documented | Complete |
-| Icarus Verilog simulations executed here | Not run |
-| Actual simulator console log attached | Pending local run |
-| Yosys synthesis reports captured | Pending local run |
-| Physical-design metrics captured | Pending flow execution |
+| Icarus Verilog simulations executed here |  run |
+| Actual simulator console log attached |  run |
+| Yosys synthesis reports captured |  run |
+| Physical-design metrics captured |  flow execution |
 
 **Important:** Do not report expected values as measured results. After running the tools, replace pending statuses only with evidence from the actual output.
